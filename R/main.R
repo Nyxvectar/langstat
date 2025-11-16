@@ -33,7 +33,7 @@ tryCatch(
 )
 
 # Get GitHub username from environment or use default
-username <- Sys.getenv("GITHUB_USERNAME", unset = "mingcheng")
+username <- Sys.getenv("GITHUB_USERNAME", unset = "Nyxvectar")
 if (username == "") {
   stop("Please set the GITHUB_USERNAME environment variable.")
 }

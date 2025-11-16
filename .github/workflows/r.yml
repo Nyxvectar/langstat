@@ -25,7 +25,7 @@ on:
       github_username:
         description: "GitHub username to analyze"
         required: true
-        default: "mingcheng"
+        default: "Nyxvectar"
 
   # Run on push to main branch (for testing)
   push:
